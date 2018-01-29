@@ -30,7 +30,7 @@ public class Main {
  
         arrayMiddle = array[0];
         for (int x = 1; x < m; x++) {
-            arrayMiddle = multiplication(arrayMiddle, array[x], p, n);
+            arrayMiddle = multiplication(arrayMiddle, array[x], n, p);
         }
  
         PrintWriter out = new PrintWriter(new File("output.txt"));
@@ -38,7 +38,7 @@ public class Main {
         out.close();
     }
  
-    private static int[][] multiplication(int[][] arrayA, int[][] arrayB, int p, int n) {
+    private static int[][] multiplication(int[][] arrayA, int[][] arrayB, int n, int p) {
         
         int middle;
         int[][] arrayMiddle = new int[n][n];
