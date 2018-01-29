@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
  
- 
+
 public class Main {
     public static void main(String[] args) throws IOException {
         int positiveNumber = 0, negativeNumber = 0, countOfPositive = 0, countOfNegative = 0;
